@@ -1,0 +1,20 @@
+{
+  "name": "Unlock Medium Paywall",
+  "version": "1.0",
+  "description": "Remove the Medium paywall on all articles hosted on medium.com.",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [
+      "unlock.js"
+    ],
+    "persistent": true
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://medium.com/*"
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
